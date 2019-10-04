@@ -10,6 +10,9 @@ The date and name of the contest will be automatically entered, and the link wil
 
 
 
-## Install
+## How to Install
+1. Install [Tampermonkey](https://www.tampermonkey.net) on your browser(Chrome, Microsoft Edge, Safari, Opera Next, Firefox)
 
+2. Install this script from [Greasy Fork](https://greasyfork.org/ja/scripts/390758-atcoder-googlecalender)
 
+3. Finish!
