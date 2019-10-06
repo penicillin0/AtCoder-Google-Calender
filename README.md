@@ -1,4 +1,4 @@
-atcoder-add-calender
+AtCoder-Google-Calender
 ====
 Add a contest schedule to your Google Calendar
 
