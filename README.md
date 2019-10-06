@@ -16,3 +16,7 @@ The date and name of the contest will be automatically entered, and the link wil
 2. Install this script from [Greasy Fork](https://greasyfork.org/ja/scripts/390758-atcoder-googlecalender)
 
 3. Finish!
+
+or
+
+1. Install from [chrome extension](https://chrome.google.com/webstore/detail/atcoder-calendar/dokfhaljgioiaeappgnmibgoipegbldf)
