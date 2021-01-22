@@ -13,7 +13,7 @@
         'action=' + 'TEMPLATE' +
         '&text=' + contest_name +
         '&dates=' + start_time_formed + '/' + end_time_formed +
-        '&details=' + contest_url;
+        '&location=' + contest_url;
 
     const insert_txt = `  <a href='${google_calendar_url}', target="_blank">Google Calendar</a>`;
     const place = document.querySelector('small.contest-duration');
