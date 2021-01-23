@@ -1,0 +1,14 @@
+{
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://atcoder.jp/contests/*"]
+    }
+  ],
+  "description": "Add a contest schedule to your Calendar",
+  "manifest_version": 2,
+  "name": "AtCoder Calendar",
+  "short_name": "AC Calender",
+  "version": "1.0.1",
+  "permissions": ["activeTab", "https://atcoder.jp/*"]
+}
