@@ -9,6 +9,11 @@
   "manifest_version": 2,
   "name": "AtCoder Calendar",
   "short_name": "AC Calender",
-  "version": "1.0.1",
-  "permissions": ["activeTab", "https://atcoder.jp/*"]
+  "version": "1.1.0",
+  "permissions": ["activeTab", "https://atcoder.jp/*"],
+  "icons": {
+    "16": "images/16icon.png",
+    "48": "images/48icon.png",
+    "128": "images/128icon.png"
+  }
 }
