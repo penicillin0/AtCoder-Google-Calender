@@ -1,5 +1,5 @@
-AtCoder-Google-Calender
-====
+# <img src="src/images/128icon.png" width=3.6%> AtCoder-Google-Calender <img src="https://calendar.google.com/googlecalendar/images/favicon.ico">
+
 Add a contest schedule to your Google Calendar
 
 ![explain-1](https://user-images.githubusercontent.com/56141035/66174037-45110a80-e68e-11e9-834f-18df9ca37c24.png)
