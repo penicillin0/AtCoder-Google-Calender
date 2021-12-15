@@ -1,4 +1,4 @@
-# <img src="src/images/128icon.png" width=3.6%> AtCoder-Google-Calender <img src="https://calendar.google.com/googlecalendar/images/favicon.ico">
+# <img src="src/images/128icon.png" width=3.8%> AtCoder-Google-Calender <img src="https://calendar.google.com/googlecalendar/images/favicon.ico">
 
 Add a contest schedule to your Google Calendar
 
