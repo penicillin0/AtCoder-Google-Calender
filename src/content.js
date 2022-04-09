@@ -1,29 +1,29 @@
 (function () {
   "use strict";
-  const contest_name = document.querySelector("a.contest-title").innerHTML;
-  const contest_url = document.querySelector("a.contest-title");
+  const contestName = document.querySelector("a.contest-title").innerHTML;
+  const contestUrl = document.querySelector("a.contest-title");
 
   // 開始時間と修了時間の取得
   const times = document.querySelectorAll("small.contest-duration a");
-  const start_time_formed =
+  const startTimeFormed =
     String(times[0]).split("=")[1].replace("&p1", "") + "00";
-  const end_time_formed =
+  const endTimeFormed =
     String(times[1]).split("=")[1].replace("&p1", "") + "00";
 
-  const google_calendar_url =
+  const googleCalendarUrl =
     "http://www.google.com/calendar/event?" +
     "action=" +
     "TEMPLATE" +
     "&text=" +
-    contest_name +
-    "&dates=" + 
-    start_time_formed +
+    contestName +
+    "&dates=" +
+    startTimeFormed +
     "/" +
-    end_time_formed +
+    endTimeFormed +
     "&location=" +
-    contest_url;
+    contestUrl;
 
-  const insert_txt = `  <a href='${google_calendar_url}', target="_blank">Google Calendar</a>`;
+  const insertTxt = `  <a href='${googleCalendarUrl}', target="_blank">Google Calendar</a>`;
   const place = document.querySelector("small.contest-duration");
-  place.insertAdjacentHTML("beforeend", insert_txt);
+  place.insertAdjacentHTML("beforeend", insertTxt);
 })();
