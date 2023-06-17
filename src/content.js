@@ -15,7 +15,7 @@
     "action=" +
     "TEMPLATE" +
     "&text=" +
-    contestName +
+    encodeURIComponent(contestName) +
     "&dates=" +
     startTimeFormed +
     "/" +
